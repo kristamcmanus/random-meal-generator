@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #F7EFFF;
+  font-family: 'Secular One', sans-serif;
+  font-size: 18px;
+  color: #4F4657;
+}
+
+#container {
+  width: 50%;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#header-text {
+  margin-bottom: 20px;
+}
+
+#get-meal-btn {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #A947FF;
+  color: #fff;
+  box-shadow: 8px 5px 5px #473656;
+  cursor: pointer;
+}
+
+#get-meal-btn:hover {
+  background: #702CAC;
+}
